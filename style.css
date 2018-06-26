@@ -1,0 +1,42 @@
+.container{
+    background-color: lightgray;
+    height: 600px;
+    width: 1150px;
+    align-content: center;
+    border-radius: 25px;
+    margin-top: 65px;
+   
+    /*margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;*/
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+#words{
+    
+    font-size: 130px;
+    vertical-align: middle;
+ 
+}
+.wordarray{
+   /* background-color: lightgray;
+    height: 200px;
+    width:1000px;
+    align-content: center;
+    text-align: center; */
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(100, 100, 100, 0.2);
+    text-align: center;
+}
+.inputsection{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

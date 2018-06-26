@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title> My Game: Type or Die </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+    <body>
+    <div class="container">
+        <section>
+            <header>
+                <h1>Type or Die</h1>
+            </header>
+                <div class="displaydetails">
+                   <div class="displaylevel">
+                   <p>"Level "<span id="level">1</span></p>
+                   </div>
+                   <div class="displayscore">
+                   <p> Your score is: <span id="score">0</span> </p>
+                </div>
+                </div>
+         </section>
+         <section class="wordarray"> 
+                 <div class="displaywords">
+                  <span id="words">Ready?</span>
+                 </div>     
+         </section>
+        <br>
+        <br>
+              
+         <section class="inputsection">
+              <form class="form-inline">
+             <div class="form-group">
+               <label for>Type words here</label>
+               <input type="text" class="form-control" id="lett">
+              </div>
+             </form>
+             <button type="button" class="btn btn-primary" id="strt">Click to Start</button>
+             <button type="button" class="btn btn-primary" id="rstrt">Restart</button>
+             <button type="button" class="btn btn-primary" id="end">End Game</button>
+             
+         </section>  
+        
+             
+        
+        
+    </div>
+        <script> 
+          document.getElementById("strt").addEventListener("click",startGame);
+            function startGame(){
+                alert("Ready to start the game");
+            }
+          document.getElementById("rstrt").addEventListener("click",restartGame);
+            function restartGame(){
+                alert("Do you want to restart the game");
+            }    
+         document.getElementById("end").addEventListener("click",endGame);
+            function endGame(){
+                alert("End game");
+            }
+      
+        </script>  
+   
+    </body>
+</html>
